@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: my-vite-drizzle-app
-    env: node
-    buildCommand: "npm run build"
-    startCommand: "npm run start"
-    plan: free
