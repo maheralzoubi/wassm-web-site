@@ -60,15 +60,24 @@ npm run preview
 
 Everything is ready! Just commit and push, or deploy manually.
 
+---
 
+## 🚀 Vercel Deployment Workflow
 
+For any update, follow these steps:
 
-// maher 
-
-i deploy fror vercal 
-any update
+```bash
+# 1. Stage all changes
 git add .
-and 
-git commit 
-and 
+
+# 2. Commit changes
+git commit -m "Your commit message"
+
+# 3. Push to GitHub (optional, if using auto-deploy)
+git push
+
+# 4. Deploy to Vercel
 vercel --prod
+```
+
+**Note:** If Vercel is connected to your GitHub repo, steps 1-3 will trigger automatic deployment. Otherwise, use `vercel --prod` for manual deployment.
