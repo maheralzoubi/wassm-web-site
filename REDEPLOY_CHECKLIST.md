@@ -60,3 +60,15 @@ npm run preview
 
 Everything is ready! Just commit and push, or deploy manually.
 
+
+
+
+// maher 
+
+i deploy fror vercal 
+any update
+git add .
+and 
+git commit 
+and 
+vercel --prod
